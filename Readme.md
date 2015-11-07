@@ -7,7 +7,17 @@ Convert to promise.
 
 ## Installation
 
-    $ npm install @joshrtay/to-promise
+    $ npm install to-promise
+
+## Usage
+
+```js
+import toPromise from 'to-promise'
+
+toPromise(anything).then(function () {
+  //success
+})
+```
 
 ## License
 
