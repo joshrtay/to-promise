@@ -1,0 +1,21 @@
+{
+  "name": "@joshrtay/to-promise",
+  "description": "Convert to promise.",
+  "repository": "git://github.com/joshrtay/to-promise.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "make build",
+    "postpublish": "make clean"
+  },
+  "dependencies": {
+    "@weo-edu/is": "^0.2.0",
+    "babel-preset-es2015": "^6.1.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.0.15",
+    "standard": "^5.1.0",
+    "tape": "^4.2.0"
+  }
+}
