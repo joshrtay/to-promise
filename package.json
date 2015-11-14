@@ -10,7 +10,7 @@
     "postpublish": "make clean"
   },
   "dependencies": {
-    "@weo-edu/is": "^0.2.0"
+    "co": "^4.6.0"
   },
   "devDependencies": {
     "babel-cli": "^6.0.15",

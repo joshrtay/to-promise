@@ -2,17 +2,17 @@
  * Imports
  */
 
-import is from '@weo-edu/is'
+import co from 'co'
 
 /**
  * to-promise
  */
 
- function toPromise (obj) {
-   if (is.promise(obj)) return obj
-   if (is.array(obj)) return Promise.all(obj)
-   return Promise.resolve(obj)
- }
+function toPromise (v) {
+  return co(function * () {
+    return yield v
+  })
+}
 
 /**
  * Exports
